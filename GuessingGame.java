@@ -3,6 +3,7 @@ public class GuessingGame
 {
     static Scanner sc = new Scanner(System.in);
     static boolean keepPlaying = true;
+    // main entry point
     public static void main(String[] args) 
     {
         System.out.println("Let's play a guessing game\n");
@@ -12,6 +13,8 @@ public class GuessingGame
         }
         System.out.println("\nThank you for playing");
     }
+
+    //  method for processing the game
     public static void playAround()
     {
         boolean validInput;
