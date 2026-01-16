@@ -46,3 +46,6 @@ for i in range(10):
     choice = input("Enter your choice: ").lower().strip()
     if choice == correct_options[i]:
         points +=1
+
+print()
+print("Your total points are:",points)
