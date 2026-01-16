@@ -38,3 +38,11 @@ correct_options =[
 ]
 
 points = 0
+
+for i in range(10):
+    choice = ''
+    print(i+1,'.',questions[i])
+    print(options[i])
+    choice = input("Enter your choice: ").lower().strip()
+    if choice == correct_options[i]:
+        points +=1
