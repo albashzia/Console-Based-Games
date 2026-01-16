@@ -23,3 +23,16 @@ options =[
     "a) Hello World b) HelloWorld c) Hello+World d) Error",
     "a) scan() b) read() c) input() d) get()"
 ]
+
+correct_options =[
+    'a',
+    'c',
+    'b',
+    'b',
+    'b',
+    'c',
+    'b',
+    'c',
+    'b',
+    'c'
+]
