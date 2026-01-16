@@ -36,3 +36,5 @@ correct_options =[
     'b',
     'c'
 ]
+
+points = 0
