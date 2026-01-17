@@ -13,6 +13,20 @@ public class JavaQuizGame {
             "What is the default value of an int variable in Java (instance variable)?",
             "Which keyword is used to inherit a class in Java?"
         };
-        
+
+
+        String options[] = {
+            "a) class b) struct c) define d) object",
+            "a) .java b) .jav c) .class d) .js",
+            "a) start() b) main() c) run() d) init()",
+            "a) float b) double c) int d) char",
+            "a) make b) create c) new d) object",
+            "a) Takes input b) Prints output with new line c) Prints without new line d) Stops program",
+            "a) : b) . c) ; d) ,",
+            "a) int b) boolean c) String d) char",
+            "a) 1 b) 0 c) null d) garbage",
+            "a) this b) super c) implements d) extends"
+        };
+
     }
 }
