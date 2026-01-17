@@ -28,5 +28,18 @@ public class JavaQuizGame {
             "a) this b) super c) implements d) extends"
         };
 
+
+        char answers[] = {
+            'a',
+            'a',
+            'b',
+            'c',
+            'c',
+            'b',
+            'c',
+            'c',
+            'b',
+            'd'
+        };
     }
 }
