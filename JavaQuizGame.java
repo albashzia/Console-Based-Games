@@ -1,6 +1,8 @@
 public class JavaQuizGame {
     public static void main(String[] args) {
 
+        int points = 0;
+
         String questions[] = {
             "Which keyword is used to define a class in Java?",
             "What is the file extension of a Java source file?",
