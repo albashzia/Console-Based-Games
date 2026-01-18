@@ -43,5 +43,19 @@ public class JavaQuizGame {
             'b',
             'd'
         };
+
+        for(int i = 0; i < questions.length; i++)
+        {
+            String choice = "";
+            System.out.println(questions[i]);
+            System.out.println(options[i]);
+            System.out.print("Enter your choice: ");
+            choice = input.next();
+            if (choice.equalsIgnoreCase(answers[i]))
+            {
+                points+=1;
+            }
+        }
+        
     }
 }
