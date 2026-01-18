@@ -56,6 +56,7 @@ public class JavaQuizGame {
                 points+=1;
             }
         }
-        
+
+        System.out.println("Your total points are "+points);
     }
 }
