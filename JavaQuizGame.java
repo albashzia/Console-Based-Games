@@ -3,6 +3,7 @@ public class JavaQuizGame {
 
         // initializing the points variable to count the correct answers by the user
         int points = 0;
+        // creating a scanner object to read data from standard input stream
         Scanner input = new Scanner(System.in);
         String questions[] = {
             "Which keyword is used to define a class in Java?",
