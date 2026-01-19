@@ -1,6 +1,7 @@
 public class JavaQuizGame {
     public static void main(String[] args) {
 
+        // initializing the points variable to count the correct answers by the user
         int points = 0;
         Scanner input = new Scanner(System.in);
         String questions[] = {
