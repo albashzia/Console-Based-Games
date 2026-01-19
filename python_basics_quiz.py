@@ -40,7 +40,7 @@ correct_options =[
     'c'
 ]
 
-points = 0
+points = 0 # initializing a points variable to hold the total points 
 
 for i in range(10):
     choice = ''
