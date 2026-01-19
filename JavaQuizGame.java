@@ -5,6 +5,7 @@ public class JavaQuizGame {
         int points = 0;
         // creating a scanner object to read data from standard input stream
         Scanner input = new Scanner(System.in);
+        // creating a string array to hold all the questions 
         String questions[] = {
             "Which keyword is used to define a class in Java?",
             "What is the file extension of a Java source file?",
@@ -18,7 +19,7 @@ public class JavaQuizGame {
             "Which keyword is used to inherit a class in Java?"
         };
 
-
+        // creating a string array to hold the options to all the questions respectively
         String options[] = {
             "a) class b) struct c) define d) object",
             "a) .java b) .jav c) .class d) .js",
@@ -32,7 +33,7 @@ public class JavaQuizGame {
             "a) this b) super c) implements d) extends"
         };
 
-
+        // creating an answers array to hold the answers to the questions 
         char answers[] = {
             'a',
             'a',
