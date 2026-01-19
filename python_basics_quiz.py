@@ -1,3 +1,4 @@
+# creating a list to hold all the questions
 questions = [
     "What is the correct file extension for a Python file?",
     "Which keyword is used to define a function in Python?",
@@ -11,6 +12,7 @@ questions = [
     "Which function is used to take input from the user in Python?"
 ]
 
+# a list to hold the options to the questions respectively
 options =[
     "a) .py b) .pt c) .python d) .pyt",
     "a) func b) define c) def d) function",
@@ -24,6 +26,7 @@ options =[
     "a) scan() b) read() c) input() d) get()"
 ]
 
+# an answer key list to hold correct responses to all the questions
 correct_options =[
     'a',
     'c',
