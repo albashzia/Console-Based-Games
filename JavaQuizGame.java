@@ -47,19 +47,20 @@ public class JavaQuizGame {
             "d"
         };
 
+        // using a loop to print the question, the options and then taking user's choice which is compared to the answer key
         for(int i = 0; i < questions.length; i++)
         {
-            String choice = "";
+            String choice = ""; // initializing an empty string on every loop 
             System.out.println(questions[i]);
             System.out.println(options[i]);
             System.out.print("Enter your choice: ");
-            choice = input.next();
-            if (choice.equalsIgnoreCase(answers[i]))
+            choice = input.next();// taking user's choice
+            if (choice.equalsIgnoreCase(answers[i])) // comparing choice and answer key
             {
-                points+=1;
+                points+=1;  // incrementing the points
             }
         }
 
-        System.out.println("Your total points are "+points);
+        System.out.println("Your total points are "+points); // printing the total points
     }
 }
