@@ -34,17 +34,17 @@ public class JavaQuizGame {
         };
 
         // creating an answers array to hold the answers to the questions 
-        char answers[] = {
-            'a',
-            'a',
-            'b',
-            'c',
-            'c',
-            'b',
-            'c',
-            'c',
-            'b',
-            'd'
+        String answers[] = {
+            "a",
+            "a",
+            "b",
+            "c",
+            "c",
+            "b",
+            "c",
+            "c",
+            "b",
+            "d"
         };
 
         for(int i = 0; i < questions.length; i++)
